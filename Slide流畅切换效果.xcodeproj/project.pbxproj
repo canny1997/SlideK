@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2468112C1D92234F00E84E02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2468112B1D92234F00E84E02 /* main.m */; };
+		2468112F1D92234F00E84E02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2468112E1D92234F00E84E02 /* AppDelegate.m */; };
+		246811321D92234F00E84E02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246811311D92234F00E84E02 /* ViewController.m */; };
+		246811351D92234F00E84E02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246811331D92234F00E84E02 /* Main.storyboard */; };
+		246811371D92235000E84E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246811361D92235000E84E02 /* Assets.xcassets */; };
+		2468113A1D92235000E84E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246811381D92235000E84E02 /* LaunchScreen.storyboard */; };
+		246811451D92235000E84E02 /* Slide______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 246811441D92235000E84E02 /* Slide______Tests.m */; };
+		246811501D92235000E84E02 /* Slide______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2468114F1D92235000E84E02 /* Slide______UITests.m */; };
+		246811691D9223A500E84E02 /* HotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2468115E1D9223A500E84E02 /* HotViewController.m */; };
+		2468116A1D9223A500E84E02 /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246811601D9223A500E84E02 /* ReaderViewController.m */; };
+		2468116B1D9223A500E84E02 /* ScienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246811621D9223A500E84E02 /* ScienceViewController.m */; };
+		2468116C1D9223A500E84E02 /* SocietyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246811641D9223A500E84E02 /* SocietyViewController.m */; };
+		2468116D1D9223A500E84E02 /* TopLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246811661D9223A500E84E02 /* TopLineViewController.m */; };
+		2468116E1D9223A500E84E02 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246811681D9223A500E84E02 /* VideoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		246811411D92235000E84E02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2468111F1D92234F00E84E02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 246811261D92234F00E84E02;
+			remoteInfo = "Slide流畅切换效果";
+		};
+		2468114C1D92235000E84E02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2468111F1D92234F00E84E02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 246811261D92234F00E84E02;
+			remoteInfo = "Slide流畅切换效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		246811271D92234F00E84E02 /* Slide流畅切换效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slide流畅切换效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2468112B1D92234F00E84E02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2468112D1D92234F00E84E02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2468112E1D92234F00E84E02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		246811301D92234F00E84E02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		246811311D92234F00E84E02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		246811341D92234F00E84E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		246811361D92235000E84E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		246811391D92235000E84E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2468113B1D92235000E84E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246811401D92235000E84E02 /* Slide流畅切换效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slide流畅切换效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		246811441D92235000E84E02 /* Slide______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Slide______Tests.m"; sourceTree = "<group>"; };
+		246811461D92235000E84E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2468114B1D92235000E84E02 /* Slide流畅切换效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slide流畅切换效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2468114F1D92235000E84E02 /* Slide______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Slide______UITests.m"; sourceTree = "<group>"; };
+		246811511D92235000E84E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2468115D1D9223A500E84E02 /* HotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotViewController.h; sourceTree = "<group>"; };
+		2468115E1D9223A500E84E02 /* HotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotViewController.m; sourceTree = "<group>"; };
+		2468115F1D9223A500E84E02 /* ReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
+		246811601D9223A500E84E02 /* ReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
+		246811611D9223A500E84E02 /* ScienceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScienceViewController.h; sourceTree = "<group>"; };
+		246811621D9223A500E84E02 /* ScienceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScienceViewController.m; sourceTree = "<group>"; };
+		246811631D9223A500E84E02 /* SocietyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocietyViewController.h; sourceTree = "<group>"; };
+		246811641D9223A500E84E02 /* SocietyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocietyViewController.m; sourceTree = "<group>"; };
+		246811651D9223A500E84E02 /* TopLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopLineViewController.h; sourceTree = "<group>"; };
+		246811661D9223A500E84E02 /* TopLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopLineViewController.m; sourceTree = "<group>"; };
+		246811671D9223A500E84E02 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		246811681D9223A500E84E02 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		246811241D92234F00E84E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2468113D1D92235000E84E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246811481D92235000E84E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2468111E1D92234F00E84E02 = {
+			isa = PBXGroup;
+			children = (
+				246811291D92234F00E84E02 /* Slide流畅切换效果 */,
+				246811431D92235000E84E02 /* Slide流畅切换效果Tests */,
+				2468114E1D92235000E84E02 /* Slide流畅切换效果UITests */,
+				246811281D92234F00E84E02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		246811281D92234F00E84E02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				246811271D92234F00E84E02 /* Slide流畅切换效果.app */,
+				246811401D92235000E84E02 /* Slide流畅切换效果Tests.xctest */,
+				2468114B1D92235000E84E02 /* Slide流畅切换效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		246811291D92234F00E84E02 /* Slide流畅切换效果 */ = {
+			isa = PBXGroup;
+			children = (
+				2468112D1D92234F00E84E02 /* AppDelegate.h */,
+				2468112E1D92234F00E84E02 /* AppDelegate.m */,
+				246811301D92234F00E84E02 /* ViewController.h */,
+				246811311D92234F00E84E02 /* ViewController.m */,
+				2468115D1D9223A500E84E02 /* HotViewController.h */,
+				2468115E1D9223A500E84E02 /* HotViewController.m */,
+				2468115F1D9223A500E84E02 /* ReaderViewController.h */,
+				246811601D9223A500E84E02 /* ReaderViewController.m */,
+				246811611D9223A500E84E02 /* ScienceViewController.h */,
+				246811621D9223A500E84E02 /* ScienceViewController.m */,
+				246811631D9223A500E84E02 /* SocietyViewController.h */,
+				246811641D9223A500E84E02 /* SocietyViewController.m */,
+				246811651D9223A500E84E02 /* TopLineViewController.h */,
+				246811661D9223A500E84E02 /* TopLineViewController.m */,
+				246811671D9223A500E84E02 /* VideoViewController.h */,
+				246811681D9223A500E84E02 /* VideoViewController.m */,
+				246811331D92234F00E84E02 /* Main.storyboard */,
+				246811361D92235000E84E02 /* Assets.xcassets */,
+				246811381D92235000E84E02 /* LaunchScreen.storyboard */,
+				2468113B1D92235000E84E02 /* Info.plist */,
+				2468112A1D92234F00E84E02 /* Supporting Files */,
+			);
+			path = "Slide流畅切换效果";
+			sourceTree = "<group>";
+		};
+		2468112A1D92234F00E84E02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2468112B1D92234F00E84E02 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		246811431D92235000E84E02 /* Slide流畅切换效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				246811441D92235000E84E02 /* Slide______Tests.m */,
+				246811461D92235000E84E02 /* Info.plist */,
+			);
+			path = "Slide流畅切换效果Tests";
+			sourceTree = "<group>";
+		};
+		2468114E1D92235000E84E02 /* Slide流畅切换效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2468114F1D92235000E84E02 /* Slide______UITests.m */,
+				246811511D92235000E84E02 /* Info.plist */,
+			);
+			path = "Slide流畅切换效果UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		246811261D92234F00E84E02 /* Slide流畅切换效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246811541D92235000E84E02 /* Build configuration list for PBXNativeTarget "Slide流畅切换效果" */;
+			buildPhases = (
+				246811231D92234F00E84E02 /* Sources */,
+				246811241D92234F00E84E02 /* Frameworks */,
+				246811251D92234F00E84E02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slide流畅切换效果";
+			productName = "Slide流畅切换效果";
+			productReference = 246811271D92234F00E84E02 /* Slide流畅切换效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2468113F1D92235000E84E02 /* Slide流畅切换效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246811571D92235000E84E02 /* Build configuration list for PBXNativeTarget "Slide流畅切换效果Tests" */;
+			buildPhases = (
+				2468113C1D92235000E84E02 /* Sources */,
+				2468113D1D92235000E84E02 /* Frameworks */,
+				2468113E1D92235000E84E02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				246811421D92235000E84E02 /* PBXTargetDependency */,
+			);
+			name = "Slide流畅切换效果Tests";
+			productName = "Slide流畅切换效果Tests";
+			productReference = 246811401D92235000E84E02 /* Slide流畅切换效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2468114A1D92235000E84E02 /* Slide流畅切换效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2468115A1D92235000E84E02 /* Build configuration list for PBXNativeTarget "Slide流畅切换效果UITests" */;
+			buildPhases = (
+				246811471D92235000E84E02 /* Sources */,
+				246811481D92235000E84E02 /* Frameworks */,
+				246811491D92235000E84E02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2468114D1D92235000E84E02 /* PBXTargetDependency */,
+			);
+			name = "Slide流畅切换效果UITests";
+			productName = "Slide流畅切换效果UITests";
+			productReference = 2468114B1D92235000E84E02 /* Slide流畅切换效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2468111F1D92234F00E84E02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = TOPTEAM;
+				TargetAttributes = {
+					246811261D92234F00E84E02 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FLMHA9N35P;
+						ProvisioningStyle = Automatic;
+					};
+					2468113F1D92235000E84E02 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 246811261D92234F00E84E02;
+					};
+					2468114A1D92235000E84E02 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 246811261D92234F00E84E02;
+					};
+				};
+			};
+			buildConfigurationList = 246811221D92234F00E84E02 /* Build configuration list for PBXProject "Slide流畅切换效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2468111E1D92234F00E84E02;
+			productRefGroup = 246811281D92234F00E84E02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				246811261D92234F00E84E02 /* Slide流畅切换效果 */,
+				2468113F1D92235000E84E02 /* Slide流畅切换效果Tests */,
+				2468114A1D92235000E84E02 /* Slide流畅切换效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		246811251D92234F00E84E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2468113A1D92235000E84E02 /* LaunchScreen.storyboard in Resources */,
+				246811371D92235000E84E02 /* Assets.xcassets in Resources */,
+				246811351D92234F00E84E02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2468113E1D92235000E84E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246811491D92235000E84E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		246811231D92234F00E84E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246811691D9223A500E84E02 /* HotViewController.m in Sources */,
+				2468116B1D9223A500E84E02 /* ScienceViewController.m in Sources */,
+				2468116E1D9223A500E84E02 /* VideoViewController.m in Sources */,
+				246811321D92234F00E84E02 /* ViewController.m in Sources */,
+				2468112F1D92234F00E84E02 /* AppDelegate.m in Sources */,
+				2468116D1D9223A500E84E02 /* TopLineViewController.m in Sources */,
+				2468112C1D92234F00E84E02 /* main.m in Sources */,
+				2468116C1D9223A500E84E02 /* SocietyViewController.m in Sources */,
+				2468116A1D9223A500E84E02 /* ReaderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2468113C1D92235000E84E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246811451D92235000E84E02 /* Slide______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246811471D92235000E84E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246811501D92235000E84E02 /* Slide______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		246811421D92235000E84E02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 246811261D92234F00E84E02 /* Slide流畅切换效果 */;
+			targetProxy = 246811411D92235000E84E02 /* PBXContainerItemProxy */;
+		};
+		2468114D1D92235000E84E02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 246811261D92234F00E84E02 /* Slide流畅切换效果 */;
+			targetProxy = 2468114C1D92235000E84E02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		246811331D92234F00E84E02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				246811341D92234F00E84E02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		246811381D92235000E84E02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				246811391D92235000E84E02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		246811521D92235000E84E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		246811531D92235000E84E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		246811551D92235000E84E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FLMHA9N35P;
+				INFOPLIST_FILE = "Slide流畅切换效果/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wk.kkXIXI.Slide------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		246811561D92235000E84E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FLMHA9N35P;
+				INFOPLIST_FILE = "Slide流畅切换效果/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wk.kkXIXI.Slide------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		246811581D92235000E84E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Slide流畅切换效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wk.kkXIXI.Slide------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slide流畅切换效果.app/Slide流畅切换效果";
+			};
+			name = Debug;
+		};
+		246811591D92235000E84E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Slide流畅切换效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wk.kkXIXI.Slide------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slide流畅切换效果.app/Slide流畅切换效果";
+			};
+			name = Release;
+		};
+		2468115B1D92235000E84E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Slide流畅切换效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wk.kkXIXI.Slide------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Slide流畅切换效果";
+			};
+			name = Debug;
+		};
+		2468115C1D92235000E84E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Slide流畅切换效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wk.kkXIXI.Slide------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Slide流畅切换效果";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		246811221D92234F00E84E02 /* Build configuration list for PBXProject "Slide流畅切换效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246811521D92235000E84E02 /* Debug */,
+				246811531D92235000E84E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246811541D92235000E84E02 /* Build configuration list for PBXNativeTarget "Slide流畅切换效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246811551D92235000E84E02 /* Debug */,
+				246811561D92235000E84E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		246811571D92235000E84E02 /* Build configuration list for PBXNativeTarget "Slide流畅切换效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246811581D92235000E84E02 /* Debug */,
+				246811591D92235000E84E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2468115A1D92235000E84E02 /* Build configuration list for PBXNativeTarget "Slide流畅切换效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2468115B1D92235000E84E02 /* Debug */,
+				2468115C1D92235000E84E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2468111F1D92234F00E84E02 /* Project object */;
+}
